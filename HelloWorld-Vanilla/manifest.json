@@ -1,7 +1,7 @@
 {
-    "icon": "https://tsa-trimble-connect-extensions-61bczczbz.vercel.app/HelloWorld-Vanilla/5229473.png",
+    "icon": "https://tsa-trimble-connect-extensions-d9y0frg7s.vercel.app/HelloWorld-Vanilla/5229473.png",
     "title": "Hello World",
-    "url": "https://tsa-trimble-connect-extensions-61bczczbz.vercel.app/HelloWorld-Vanilla/index.html",
+    "url": "https://tsa-trimble-connect-extensions-d9y0frg7s.vercel.app/HelloWorld-Vanilla/index.html",
     "description": "Minimal test extension",
     "enabled": true
 }

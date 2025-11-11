@@ -1,8 +1,7 @@
 {
-    "icon": "https://tsa-trimble-connect-extensions-61bczczbz.vercel.app/HelloWorld-React/q.svg",
+    "icon": "https://tsa-trimble-connect-extensions-d9y0frg7s.vercel.app/HelloWorld-React/q.svg",
     "title": "Hello World React",
-    "url": "https://tsa-trimble-connect-extensions-61bczczbz.vercel.app/HelloWorld-React/index.html",
+    "url": "https://tsa-trimble-connect-extensions-d9y0frg7s.vercel.app/HelloWorld-React/index.html",
     "description": "Minimal React + TypeScript extension",
     "enabled": true
 }
-
