@@ -1,7 +1,7 @@
 {
-    "icon": "https://storage.cloud.google.com/main-efu/trimble-connect-extensions/HelloWorld-Vanilla/5229473.png",
+    "icon": "https://github.com/davekazemi/tsa-trimble-connect-extensions/blob/f7c47bab8860fda79b6948e33abb69f47ff1062a/HelloWorld-Vanilla/5229473.png",
     "title": "Hello World",
-    "url": "https://storage.cloud.google.com/main-efu/trimble-connect-extensions/HelloWorld-Vanilla/index.html",
+    "url": "https://github.com/davekazemi/tsa-trimble-connect-extensions/blob/f7c47bab8860fda79b6948e33abb69f47ff1062a/HelloWorld-Vanilla/index.html",
     "description": "Minimal test extension",
     "enabled": true
 }
