@@ -1,0 +1,28 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.info {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.info p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.info strong {
+    color: #0057FF;
+    font-weight: 600;
+}
+
