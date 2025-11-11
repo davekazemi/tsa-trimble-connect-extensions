@@ -1,0 +1,34 @@
+{
+  "buildCommand": "cd HelloWorld-React && npm install && npm run build",
+  "outputDirectory": ".",
+  "public": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/HelloWorld-React/(.*)",
+      "destination": "/HelloWorld-React/dist/$1"
+    },
+    {
+      "source": "/HelloWorld-Vanilla/(.*)",
+      "destination": "/HelloWorld-Vanilla/$1"
+    }
+  ]
+}
