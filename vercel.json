@@ -1,6 +1,6 @@
 {
-  "buildCommand": "cd HelloWorld-React && npm install && npm run build",
-  "outputDirectory": ".",
+  "buildCommand": "echo 'Static files only'",
+  "outputDirectory": "public",
   "public": true,
   "headers": [
     {
@@ -17,18 +17,12 @@
         {
           "key": "Access-Control-Allow-Headers",
           "value": "Content-Type"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/HelloWorld-React/(.*)",
-      "destination": "/HelloWorld-React/dist/$1"
-    },
-    {
-      "source": "/HelloWorld-Vanilla/(.*)",
-      "destination": "/HelloWorld-Vanilla/$1"
     }
   ]
 }
