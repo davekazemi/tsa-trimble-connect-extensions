@@ -1,0 +1,7 @@
+{
+    "icon": "https://storage.cloud.google.com/main-efu/trimble-connect-extensions/HelloWorld-Vanilla/5229473.png",
+    "title": "Hello World",
+    "url": "https://storage.cloud.google.com/main-efu/trimble-connect-extensions/HelloWorld-Vanilla/index.html",
+    "description": "Minimal test extension",
+    "enabled": true
+}
